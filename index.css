@@ -1,7 +1,7 @@
 /* css for our html body */
 body {
     color: whitesmoke;
-    background-color: rgb(21, 21, 41);
+    background-color: rgb(21, 40, 41);
     font-family: 'Segoe UI';
     padding: 0;
     margin: 0;
@@ -15,11 +15,32 @@ a {
 
 /* css for our navbar and navbar-item classes */
 .navbar {
-    background-color: rgb(14, 14, 69);
+    background-color: rgb(14, 58, 69);
     padding: 30px;
 }
 
 .navbar-item {
     padding: 20px;
-    background-color: rgb(34, 34, 91);
+    background-color:   rgb(34, 87, 91);
+}
+
+.banner-image {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.profile-card {
+    padding: 5%;
+}
+
+.profile-image {
+    width: 200px;
+}
+
+.profile-text {
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px;
 }
