@@ -32,15 +32,46 @@ a {
 
 
 .profile-card {
+   text-align: center;
     padding: 5%;
 }
 
 .profile-image {
+    border-radius: 100%;
     width: 200px;
 }
 
 .profile-text {
+    text-align: left;
     display: inline-block;
     vertical-align: top;
     margin: 30px;
+}
+
+.banner-title {
+    background-color: rgb(6, 6, 62); 
+    padding: 20px;
+    text-align: center;
+}
+
+
+.projects {
+    padding: 40px;
+    background-color: rgb(35, 35, 56);
+}
+
+.project-card {
+    border: solid 2px black;
+    display: inline-block;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.project-image {
+    border: solid 1px black;
+    width: 500px;
+}
+
+.project-text {
+    padding: 20px;
 }
